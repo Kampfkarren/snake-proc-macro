@@ -1,0 +1,12 @@
+[package]
+name = "core"
+version = "0.1.0"
+authors = ["Kampfkarren"]
+edition = "2018"
+
+[dependencies]
+ggez = { git = "https://github.com/ggez/ggez" }
+rand = "0.6"
+
+[lib]
+proc-macro = true
